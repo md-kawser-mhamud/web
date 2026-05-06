@@ -4,28 +4,38 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Desi Viral Video - Trending Desi Clips and Viral Updates</title>
-  <meta name="description" content="Desi Viral Video shares trending desi clips, short video updates, entertainment highlights and quick links to watch more on our main video website. Main Website PomPomHUb.com">
+  <meta name="description" content="Desi Viral Video shares trending desi clips, short video updates, entertainment highlights, and quick links to watch more on our main video website.">
   <meta name="robots" content="index, follow, max-image-preview:large">
-  <meta name="theme-color" content="#f7f3ed">
+  <meta name="theme-color" content="#f7f3ed" id="theme-color">
   <meta name="author" content="Desi Viral Video">
   <link rel="canonical" href="https://desiviralvideo.site/">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Desi Viral Video">
   <meta property="og:url" content="https://desiviralvideo.site/">
-  <meta property="og:title" content="Desi Viral Video - Trending Desi Clips and Viral Update Video Everyday">
+  <meta property="og:title" content="Desi Viral Video - Trending Desi Clips and Viral Updates">
   <meta property="og:description" content="Find fresh desi viral video highlights, entertainment categories, and direct links to watch more on our main website.">
-  <meta property="og:image" content="https://pompomhub.com/wp-content/uploads/2026/04/thumbnail-7.jpg">
+  <meta property="og:image" content="https://desiviralvideo.site/assets/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Desi Viral Video - Trending Desi Clips and Viral Updates">
   <meta name="twitter:description" content="Fresh desi viral video highlights with quick links to watch more on our main website.">
-  <meta name="twitter:image" content="https://pompomhub.com/wp-content/uploads/2026/04/thumbnail-4.jpg">
+  <meta name="twitter:image" content="https://desiviralvideo.site/assets/og-image.jpg">
 
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="assets/hero-feature.jpg" as="image">
+  <link rel="preconnect" href="https://pompomhub.com">
+  <script>
+    try {
+      var savedTheme = localStorage.getItem("desi-theme");
+      var systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.dataset.theme = savedTheme || systemTheme;
+    } catch (error) {
+      document.documentElement.dataset.theme = "light";
+    }
+  </script>
   <link rel="stylesheet" href="styles.css">
 
   <script type="application/ld+json">
@@ -35,13 +45,16 @@
     "name": "Desi Viral Video",
     "url": "https://desiviralvideo.site/",
     "description": "Trending desi clips, short video updates, entertainment highlights, and quick links to watch more on the main video website.",
+    "sameAs": [
+      "https://pompomhub.com"
+    ],
     "publisher": {
       "@type": "Organization",
       "name": "Desi Viral Video",
       "url": "https://desiviralvideo.site/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://pompomhub.com/wp-content/uploads/2026/04/Boyfriend-Talked-to-go-Long-Drive-With-Car-But-He-Fuck-me-in-his-car.png",
+        "url": "https://desiviralvideo.site/assets/og-image.jpg",
         "width": 1200,
         "height": 630
       }
@@ -62,6 +75,10 @@
       <a href="#categories">Categories</a>
       <a href="#submit">Submit</a>
     </nav>
+    <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false" data-theme-toggle>
+      <span class="theme-icon" aria-hidden="true"></span>
+      <span data-theme-label>Dark</span>
+    </button>
     <a class="header-action" href="https://pompomhub.com" rel="noopener" data-main-link>Watch now</a>
   </header>
 
@@ -74,14 +91,14 @@
           Discover short desi entertainment highlights, funny moments, music clips, reels, and social video picks with quick paths to watch more on the main video website.
         </p>
         <div class="hero-actions" aria-label="Main actions">
-          <a class="button button-primary" href="https://pompomhub.com" rel="noopener" data-main-link>Go to main website</a>
+          <a class="button button-primary" href="https://pompomhub.com" rel="noopener" data-main-link>Go to PompomHub</a>
           <a class="button button-secondary" href="#trending">Browse highlights</a>
         </div>
       </div>
 
       <article class="featured-video" aria-labelledby="featured-title">
         <a class="image-link" href="https://pompomhub.com" rel="noopener" data-main-link aria-label="Open featured desi video collection">
-          <img src="https://pompomhub.com/wp-content/uploads/2026/04/Indian-Galli-Sex.-Indian-GF-BF-Intimate-On-A-Public-Place-.png" width="960" height="540" alt="Featured desi video collection preview" fetchpriority="high" decoding="async">
+          <img src="assets/hero-feature.jpg" data-image-key="hero" data-fallback-src="assets/hero-feature.jpg" width="960" height="540" alt="Featured desi video collection preview" fetchpriority="high" decoding="async">
         </a>
         <div class="featured-body">
           <p class="category-label">Featured</p>
@@ -95,25 +112,25 @@
       <div class="section-heading">
         <p class="eyebrow">Updated picks</p>
         <h2 id="trending-title">Trending video highlights</h2>
-        <p>Browse popular sex video categories and continue to the full collection when a highlight catches your interest.</p>
+        <p>Browse popular short-video categories and continue to the full collection when a highlight catches your interest.</p>
       </div>
 
       <div class="video-grid">
         <!-- To add a new image card, copy one article block and change the image src, alt text, title, description, and link. -->
         <article class="video-card">
           <a href="https://pompomhub.com" rel="noopener" data-main-link aria-label="Watch funny desi clips">
-            <img src="https://pompomhub.com/wp-content/uploads/2026/04/othoi-link-viral-telegram.png" width="640" height="360" alt="Funny desi clips thumbnail" loading="lazy" decoding="async">
+            <img src="assets/thumb-funny.jpg" data-image-key="funny" data-fallback-src="assets/thumb-funny.jpg" width="640" height="360" alt="Funny desi clips thumbnail" loading="lazy" decoding="async">
           </a>
           <div class="card-body">
             <p class="category-label">Funny</p>
-            <h3>de clips</h3>
+            <h3>Funny desi clips</h3>
             <p>Short comedy moments, reactions, and shareable social clips.</p>
           </div>
         </article>
 
         <article class="video-card">
           <a href="https://pompomhub.com" rel="noopener" data-main-link aria-label="Watch desi reels and drama clips">
-            <img src="assets/thumb-reels.jpg" width="640" height="360" alt="Desi reels and drama clips thumbnail" loading="lazy" decoding="async">
+            <img src="assets/thumb-reels.jpg" data-image-key="reels" data-fallback-src="assets/thumb-reels.jpg" width="640" height="360" alt="Desi reels and drama clips thumbnail" loading="lazy" decoding="async">
           </a>
           <div class="card-body">
             <p class="category-label">Reels</p>
@@ -124,7 +141,7 @@
 
         <article class="video-card">
           <a href="https://pompomhub.com" rel="noopener" data-main-link aria-label="Watch music and dance videos">
-            <img src="assets/thumb-music.jpg" width="640" height="360" alt="Student and dance video thumbnail" loading="lazy" decoding="async">
+            <img src="assets/thumb-music.jpg" data-image-key="music" data-fallback-src="assets/thumb-music.jpg" width="640" height="360" alt="Music and dance video thumbnail" loading="lazy" decoding="async">
           </a>
           <div class="card-body">
             <p class="category-label">Music</p>
@@ -135,7 +152,7 @@
 
         <article class="video-card">
           <a href="https://pompomhub.com" rel="noopener" data-main-link aria-label="Watch sports and street highlight videos">
-            <img src="https://pompomhub.com/wp-content/uploads/2026/04/লাবনীর-সাথে-পুরা-ক্লোজ-ভিডিও.png" width="640" height="360" alt="Sports and street highlight thumbnail" loading="lazy" decoding="async">
+            <img src="assets/thumb-sports.jpg" data-image-key="highlights" data-fallback-src="assets/thumb-sports.jpg" width="640" height="360" alt="Sports and street highlight thumbnail" loading="lazy" decoding="async">
           </a>
           <div class="card-body">
             <p class="category-label">Highlights</p>
@@ -156,9 +173,9 @@
       </div>
       <ul class="category-list" aria-label="Video categories">
         <li><a href="https://pompomhub.com" rel="noopener" data-main-link>Viral desi videos</a></li>
-        <li><a href="https://pompomhub.com" rel="noopener" data-main-link>Adult short clips</a></li>
-        <li><a href="https://pompomhub.com" rel="noopener" data-main-link>Hot dance reels</a></li>
-        <li><a href="https://pompomhb.com" rel="noopener" data-main-link>Entertainment updates</a></li>
+        <li><a href="https://pompomhub.com" rel="noopener" data-main-link>Funny short clips</a></li>
+        <li><a href="https://pompomhub.com" rel="noopener" data-main-link>Music and dance reels</a></li>
+        <li><a href="https://pompomhub.com" rel="noopener" data-main-link>Entertainment updates</a></li>
       </ul>
     </section>
 
@@ -170,7 +187,7 @@
           Each call-to-action uses clear wording so visitors understand where they are going before they continue.
         </p>
       </div>
-      <a class="button button-primary" href="https://pompomhub.com" rel="noopener" data-main-link>Continue to videos</a>
+      <a class="button button-primary" href="https://pompomhub.com" rel="noopener" data-main-link>Continue to PompomHub</a>
     </section>
   </main>
 
@@ -178,11 +195,12 @@
     <p>&copy; <span id="year">2026</span> Desi Viral Video. All rights reserved.</p>
     <nav aria-label="Footer navigation">
       <a href="https://desiviralvideo.site/">Home</a>
-      <a href="https://pompomhub.com" rel="noopener" data-main-link>Main website</a>
+      <a href="https://pompomhub.com" rel="noopener" data-main-link>PompomHub</a>
       <a href="#trending">Trending</a>
     </nav>
   </footer>
 
+  <script src="site-config.js"></script>
   <script src="script.js" defer></script>
 </body>
 </html>
